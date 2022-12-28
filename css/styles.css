@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+}
+
+/* TITLE SECTION */
+
+.nav-link {
+    font-size: 1.8rem !important;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 23px !important;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-light';
+}
+
+#iphone_img {
+    margin-top: 1rem;
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 14%;
+}
+
+.btn {
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.download-button {
+    margin: 2% 3% 5% 0;
+}
+
+/* FIM TITLE SECTION */
+
+/* INICIO FEATURES */
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: -17rem;
+}
+
+#features p {
+    color: #8f8f8f;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+
+.fa-circle-check,
+.fa-bullseye,
+.fa-heart {
+    color: #EF8172;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.fa-circle-check:hover,
+.fa-bullseye:hover,
+.fa-heart:hover {
+    color: #ff4c68;
+}
+
+.box-p {
+    margin-bottom: 2.5rem;
+}
+
+/* FIM FEATURES */
+
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+    text-align: center;
+    background-color: #EF8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.priocing-column {
+    padding: 3% 2%;
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    #features {
+        margin-top: -10rem;
+    }
+}
