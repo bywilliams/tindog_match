@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
 body {
     font-family: 'Montserrat';
@@ -16,7 +17,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 2% 15% 2%;
 }
 
 .navbar {
@@ -57,7 +58,7 @@ body {
 
 h1 {
     font-family: 'Montserrat';
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -82,7 +83,7 @@ h2 {
     background-color: #fff;
     position: relative;
     z-index: 1;
-    margin-top: -17rem;
+    margin-top: -20rem;
 }
 
 #features p {
@@ -153,11 +154,52 @@ h2 {
 #pricing {
     padding: 100px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .priocing-column {
     padding: 3% 2%;
 }
+
+/* 
+END PRICING SECTION */
+
+
+/* FOOTER SECTION */
+#call {
+    background-color: #ff4c68;
+    padding: 3% 15%;
+    color: #fff;
+    text-align: center;
+}
+
+#cta h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    background-color: #fff;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(139, 139, 139);
+    margin-top: 1rem;
+}
+
+footer i {
+    padding: 5px;
+}
+
+footer i:hover {
+    color: #EF8172;
+}
+
+/* END FOOTER SECTION */
+
 
 @media only screen and (max-width: 1024px) {
     h1 {
@@ -166,5 +208,33 @@ h2 {
 
     #features {
         margin-top: -10rem;
+    }
+}
+
+@media(max-width: 768px) {
+    #iphone_img {
+        transform: rotate(0);
+        left: 20%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 425px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .press-logo {
+        width: 60%;
+    }
+
+    #cta h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
 }
