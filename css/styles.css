@@ -40,6 +40,17 @@ p {
 
 /* CONTAINERS */
 
+/* SECTIONS COLOR */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* END SECTIONS COLOR */
 
 /* NAVGATION SECTION */
 
@@ -55,7 +66,6 @@ p {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Ubuntu';
-
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -75,14 +85,9 @@ p {
 
 /* TITLE SECTION */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 #iphone_img {
@@ -106,7 +111,6 @@ p {
 /* INICIO FEATURES */
 
 #features {
-    background-color: #fff;
     position: relative;
     z-index: 1;
     margin-top: -20rem;
@@ -148,7 +152,6 @@ p {
 
 #testimonials {
     background-color: #EF8172;
-    color: #fff;
 }
 
 .testimonial-text {
@@ -194,19 +197,6 @@ END PRICING SECTION */
 
 
 /* FOOTER SECTION */
-#call {
-    background-color: #ff4c68;
-    padding: 3% 15%;
-    color: #fff;
-}
-
-/* 
-#cta h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-} */
-
 
 footer {
     background-color: #fff;
