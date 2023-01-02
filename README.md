@@ -10,7 +10,7 @@ O Intuito do projeto foi aperfeiçoar as habilidades no bootstrap  e a refatora�
 ___
 
 # Imagem da Aplicação
-Agora será mostrado como esta a Intranet atualmente.
+Agora será mostrado como ficou o projeto final.
 
 ![Alt ou título da imagem](tindog-project.gif)
 &nbsp;
