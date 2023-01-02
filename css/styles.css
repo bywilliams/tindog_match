@@ -219,12 +219,16 @@ footer i:hover {
 
 
 @media only screen and (max-width: 1024px) {
-    h1 {
-        font-size: 2.6rem;
+    .big-heading {
+        font-size: 2.7rem;
     }
 
     #features {
         margin-top: -10rem;
+    }
+
+    .testimonial-text {
+        font-size: 2.2rem;
     }
 }
 
@@ -238,15 +242,27 @@ footer i:hover {
         text-align: center;
     }
 
+    .press-logo {
+        width: 33%;
+    }
+
 }
 
 @media (max-width: 425px) {
+    .big-heading {
+        font-size: 2.4rem;
+    }
+
     h2 {
         font-size: 1.5rem;
     }
 
     .press-logo {
         width: 60%;
+    }
+
+    .testimonial-text {
+        font-size: 1.5rem;
     }
 
     #pricing {
